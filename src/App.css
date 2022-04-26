@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    /* border: solid 2px black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+    width: 580px;
+    /* border: red solid 2px; */
+    border-bottom: #ddd3d3 solid 2px;
+    height: 111px;
+    display: flex;
+    margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.right-card {
+    /* border: 2px green solid; */
+    width: 60%;
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.left-card {
+    /* border: orange 2px solid; */
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 10px;
+}
+h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.test {
+    position: absolute;
+    left: 50px;
+    top: 43px;
+
+    color: #ff014b;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.m6 {
+    height: 40px;
+}
+
+.head {
+    /* border: 2px greenyellow solid; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+.text-m6 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
 }
